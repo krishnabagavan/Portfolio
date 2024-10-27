@@ -1,0 +1,93 @@
+.headingOfProject {
+  color: #ffb400;
+  text-align: center;
+  font-size: 3.3rem;
+  font-family: "Hedvig Letters Serif", serif;
+  padding-top: 2.5rem;
+}
+.headingOfProject:hover {
+  text-shadow: 2px 2px 8px white;
+  transition: 0.5s;
+  cursor: pointer;
+ 
+}
+
+.ProjectContainer {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  place-items: center;
+}
+
+@media screen and (max-width: 1260px) {
+  .ProjectContainer {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    place-items: center;
+  }
+}
+@media screen and (max-width: 950px) {
+  .ProjectContainer {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    place-items: center;
+  }
+}
+@media screen and (max-width: 845px) {
+  .ProjectContainer {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    place-items: center;
+  }
+}
+@media screen and (max-width: 668px) {
+  .ProjectContainer {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .ProjectContainer {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    place-items: center;
+  }
+}
+@media screen and (max-width: 410px) {
+  .ProjectContainer {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    place-items: center;
+  }
+}
+@media screen and (max-width: 345px) {
+  .ProjectContainer {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    place-items: center;
+  }
+}

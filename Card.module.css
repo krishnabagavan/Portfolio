@@ -1,0 +1,97 @@
+.cardContainer {
+  width: 60%;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 6px;
+  display: flex;
+  gap: 1rem;
+  color: white;
+  font-family: "Hedvig Letters Serif", serif;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.imageContainer {
+  width: 50%;
+}
+
+.imageOfProject {
+  width: 100%;
+  border-radius: 6px;
+}
+.buttonComponents {
+  display: flex;
+  margin-left: 1rem;
+  align-items: center;
+  gap: 2rem;
+}
+.sourceCodeBtn,
+.liveBtn {
+  background-color: #ffb400;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 4px;
+  font-family: "Hedvig Letters Serif", serif;
+  padding: 3px 12px;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.buttonComponents > a {
+  text-decoration: none;
+}
+.sourceCodeBtn,
+.liveBtn:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 1300px) {
+  .cardContainer {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .cardContainer {
+    width: 80%;
+  }
+  .buttonComponents {
+    display: flex;
+    gap: 0.4rem;
+  
+  }
+}
+@media screen and (max-width: 768px) {
+  .cardContainer {
+    display: flex;
+  }
+}
+@media screen and (max-width: 640px) {
+  .cardContainer {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 475px){
+    .sourceCodeBtn,.liveBtn{
+       font-size: 1rem;
+    } 
+}
+@media screen and (max-width: 445px){
+  .sourceCodeBtn,.liveBtn{
+     font-size: 0.8rem;
+  } 
+}
+@media screen and (max-width: 390px){
+  .sourceCodeBtn,.liveBtn{
+     font-size: 0.7rem;
+  } 
+}
+@media screen and (max-width: 300px){
+  .sourceCodeBtn,.liveBtn{
+     font-size: 0.5rem;
+  } 
+}

@@ -1,0 +1,49 @@
+.conatactHeading {
+  color: #fba400;
+  text-align: center;
+  font-size: 3.3rem;
+  font-family: "Hedvig Letters Serif", serif;
+}
+.conatactHeading:hover {
+  text-shadow: 2px 2px 8px white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.detailOfContact {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  margin: auto;
+  gap: 1rem;
+  align-items: center;
+}
+.adminDetailsAccount{
+    color: white;
+    text-decoration: none;
+    font-family: "Hedvig Letters Serif", serif;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.4rem;
+}
+.adminDetailsAccount:hover{
+    cursor: pointer;
+    color: #fba400;
+}
+.copyRightSection{
+    text-align: center;
+    color: white;
+    font-family: "Hedvig Letters Serif", serif;
+}
+
+.adminName{
+    color: #fba400;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width:381px){
+  .copyRightSection{
+    font-size:0.8rem
+  }
+}

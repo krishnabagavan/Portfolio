@@ -1,0 +1,249 @@
+.containerOfHomeSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 90vh;
+  margin: auto;
+  font-family: "Hedvig Letters Serif", serif;
+}
+
+.imageContainer {
+  width: 40%;
+}
+.image {
+  width: 80%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.quote {
+  color: white;
+}
+
+.detailsContainer {
+  width: 40%;
+  margin-top: 1rem;
+}
+
+.headingName {
+  color: white;
+  font-family: "Hedvig Letters Serif", serif;
+  font-size: 2rem;
+  color: #ffb400;
+}
+.nameOfAdmin {
+  color: #ffb400;
+}
+.detailsOfAdmin {
+  color: white;
+  text-align: justify;
+}
+.resumeButton {
+  width: 30%;
+  border: none;
+  outline: none;
+  background-color: #ffb400;
+  color: white;
+  font-family: "Hedvig Letters Serif", serif;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+.resumeAnchor {
+  text-decoration: none;
+  color: black;
+}
+.resumeButton:hover {
+  cursor: pointer;
+  transition: all 0.2s linear 0s;
+  color: black;
+  background-color: white;
+}
+
+.accountOfSocialMedia {
+  display: flex;
+  width: 30%;
+  margin: 2rem 0;
+  gap: 1rem;
+}
+.socialMediaIcon {
+  color: #ffb400;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  background-color: rgb(17, 17, 17);
+}
+.socialMediaIcon:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 1500px) {
+  .containerOfHomeSection {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1322px) {
+  .containerOfHomeSection {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .containerOfHomeSection {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+  }
+  .detailsContainer {
+    width: 50%;
+  }
+  .imageContainer {
+    width: 40%;
+  }
+  .headingName {
+    font-size: 1.9rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .containerOfHomeSection {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+  }
+  .detailsContainer {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+  }
+  .imageContainer {
+    width: 40%;
+  }
+  .headingName {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 882px) and (max-width: 910px) {
+  .resumeButton {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 880px) {
+  .containerOfHomeSection {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+  }
+  .detailsContainer {
+    width: 40%;
+  }
+  .imageContainer {
+    width: 40%;
+  }
+  .headingName {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .resumeButton {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 795px) {
+  .containerOfHomeSection {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+  }
+  .detailsContainer {
+    width: 45%;
+  }
+  .imageContainer {
+    width: 40%;
+  }
+  .headingName {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  .resumeButton {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .containerOfHomeSection {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 1rem auto;
+  }
+  .detailsContainer {
+    width: 50%;
+    margin: auto;
+  }
+  .resumeButton {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .containerOfHomeSection {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 1rem auto;
+  }
+  .detailsContainer {
+    width: 70%;
+    margin: auto;
+  }
+  .resumeButton {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 440px) {
+  .containerOfHomeSection {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .detailsContainer {
+    width: 90%;
+    margin: auto;
+  }
+  .resumeButton {
+    width: 40%;
+  }
+}

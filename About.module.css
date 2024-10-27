@@ -1,0 +1,92 @@
+#about_section {
+  width: 80%;
+  margin: auto;
+}
+
+.aboutHeading {
+  color: white;
+  font-family: "Hedvig Letters Serif", serif;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  padding-top: 1rem;
+}
+
+.aboutHeading:hover {
+  text-shadow: 2px 2px 8px white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.aboutMeHeading {
+  color: #ffb400;
+  font-family: "Hedvig Letters Serif", serif;
+  font-weight: bolder;
+}
+.nameOfAdmin {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Hedvig Letters Serif", serif;
+}
+.paraTag {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.briefSummmmaryAboutMe {
+  color: white;
+  font-family: "Hedvig Letters Serif", serif;
+  text-align: justify;
+}
+
+.systemImage {
+  width: 40%;
+  margin-left: 1.5 rem;
+
+}
+.email {
+  color: #ffb400;
+  text-align: center;
+  font-family: "Hedvig Letters Serif", serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .paraTag {
+    display: flex;
+    flex-direction: column;
+  }
+  .systemImage {
+    width: 60%;
+    padding-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .aboutHeading {
+    padding-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .paraTag {
+    width: 80%;
+    margin: auto;
+  }
+  .aboutHeading {
+    font-size: 2.5rem;
+    padding-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .aboutHeading {
+    padding-top: 5rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .aboutHeading {
+    padding-top: 8rem;
+  }
+}
